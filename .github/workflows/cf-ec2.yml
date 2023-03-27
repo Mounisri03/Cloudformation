@@ -24,5 +24,5 @@ jobs:
         # because we are running these examples in a monorepo
         with:
           name: MyStack
-          template: myStack.yaml
+          template: ec2-instance.yaml
           parameter-overrides: "MyParam1=myValue,MyParam2=${{ secrets.MY_SECRET_VALUE }}"
